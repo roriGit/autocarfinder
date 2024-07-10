@@ -140,6 +140,7 @@ add_action( 'widgets_init', 'underscore_widgets_init' );
 function underscore_scripts() {
 	wp_enqueue_style( 'underscore-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'underscore-style', 'rtl', 'replace' );
+	//wp_enqueue_style( 'bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css', array(), _S_VERSION );
 
 	wp_enqueue_script( 'underscore-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
