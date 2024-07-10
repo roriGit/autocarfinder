@@ -968,7 +968,8 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-.wp-block-query.is-layout-flow.wp-block-query-is-layout-flow {
+.wp-block-query.is-layout-flow.wp-block-query-is-layout-flow,
+.inner-container {
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -983,4 +984,16 @@ h2.wp-block-heading.cover-text {
     max-width: 1200px;
     margin: auto;
     padding-left: 40px;
+}
+.single-car .car.type-car{
+	padding: 0px 40px 30px 0px;
+}
+.single-car .car.type-car .entry-header h1.entry-title {
+    display: block;
+    position: absolute;
+    padding: 20px 40px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+    font-size: 2.5em;
+    margin-top: -130px;
 }
