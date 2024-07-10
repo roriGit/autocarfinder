@@ -66,6 +66,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 700
+*/
+	 
+.akshar-normal {
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 html {
 	line-height: 1.15 !important;
 	-webkit-text-size-adjust: 100%;
@@ -996,4 +1007,13 @@ h2.wp-block-heading.cover-text {
     text-shadow: 1px 1px rgba(0,0,0,0.2);
     font-size: 2.5em;
     margin-top: -130px;
+}
+.site-info{
+	text-align: center;
+}
+.post, .page {
+    margin: 0;
+}
+.entry-content {
+    padding-bottom: 60px;
 }
